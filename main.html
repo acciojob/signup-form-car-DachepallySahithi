@@ -10,20 +10,20 @@
 	<form action="/submit" method="post">
 
 		<label for="name">Name</label>
-		<input type="text" id="name" name="name" placeholder="Name" required>
+		<input type="text" id="name" name="name" required placeholder="Name">
 		<br>
 
 		<label for="email">Email</label>
-		<input type="email" id="email" name="email" placeholder="Email" required>
+		<input type="email" id="email" name="email" required placeholder="Email">
 		<br>
 
 		<label>Gender</label>
         <br>
-		<label for="gender_f">Gender</label>
-        <input type="radio" id ="gender_f" name="gender"> 
+		<label for="gender_f">Female</label>
+        <input type="radio" id ="gender_f" name="gender" value="female" required> 
         <br>
-		<label for="gender_m">Gender</label>
-        <input type="radio" id="gender_m" name="gender">
+		<label for="gender_m">Male</label>
+        <input type="radio" id="gender_m" name="gender" value="male" required>
         <br>
 
 		<label for="cars">Car Brands</label>
@@ -37,7 +37,7 @@
         <br>
 
 		<label for="age">Age</label>
-		<input type="number" id="age" name="age" placeholder="Age" required>
+		<input type="number" id="age" name="age" required placeholder="Age">
 		<br>
 
 		<label for="date">DOB</label>
@@ -45,11 +45,11 @@
 		<br>
 
 		<label for="tel">Phone Number</label>
-		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
+		<input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
 		<br>
 
 		<label for="password">Password</label>
-		<input type="password" id="password" name="password" placeholder="Password" required>
+		<input type="password" id="password" name="password" required placeholder="Password">
 		<br>
 
 		<label for="tos">I agree to the TOS</label>
